@@ -9,5 +9,12 @@ I've used the [Mall Customers dataset](https://github.com/Egor-Cherevan/Customer
 5.  Spending Score (1-100) - Customers score assigned by the mall based on the customer behavior
 ## Analysis
 First of all I looked at the distribution of values. Here we can notice the apparent patterns between **Annual Income** and **Spending Score**. Thus we can assume with help of these values the data will be most clearly divided into groups. But I was also interested in making segmentation by **Age** and **Spending Score**.\
-![](Pictures/Matrix.png)
+![](Pictures/Matrix.png)\
+I was also interested in looking at the distribution of three quantities at once.
+![](Pictures/Values_distribution.png)
 ## Scaling
+I've scaled my data with help of **MinMaxScaler** to place all values in the range [0,1].
+<img src="Pictures/minmaxscaler.png" width="400">
+## Clustering
+I've used a **KMeans** algorithm for segmenting the data.\
+Results of segmenting are presented below.
