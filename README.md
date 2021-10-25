@@ -13,7 +13,7 @@ First of all I looked at the distribution of values. Here we can notice the appa
 I was also interested in looking at the distribution of three quantities at once.
 ![](Pictures/Values_distribution.png)
 ## Scaling
-I've scaled my data with help of **MinMaxScaler** to place all values in the range [0,1].
+I've scaled my data with help of **MinMaxScaler** to place all values in the range [0,1].\
 <img src="Pictures/minmaxscaler.png" width="400">
 ## Clustering
 I've used a **KMeans** algorithm for segmenting the data.\
