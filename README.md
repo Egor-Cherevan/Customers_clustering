@@ -1,4 +1,4 @@
-# Customers_clustering
+# Customers clustering
 In this case i've tried to show the use of unsupervised learning in businesses for potential improving key performance indicators.
 ## Data
 I've used the [Mall Customers dataset](https://github.com/Egor-Cherevan/Customers_clustering/blob/main/mall_customers.csv) as a train dataset. It consist of 5 features:
@@ -7,5 +7,5 @@ I've used the [Mall Customers dataset](https://github.com/Egor-Cherevan/Customer
 3.  Age - Customers age(years)
 4.  Annual Income(k$) - Customers annual income in k$
 5.  Spending Score (1-100) - Customers score assigned by the mall based on the customer behavior
-## Results
-I've got 5 clusters as a result of segmentation. Each cluster is highlighted with a unique color.
+## EDA
+First of all I looked at the distribution of values\
