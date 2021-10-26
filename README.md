@@ -14,15 +14,16 @@ I was also interested in looking at the distribution of three quantities at once
 ![](Pictures/Values_distribution.png)
 ## Scaling
 I've scaled my data with help of **MinMaxScaler** to place all values in the range [0,1].\
-<img src="Pictures/minmaxscaler.png" width="300">\
+![](Pictures/minmaxscaler.png)\
 You can see the results of scaling below.\
-<img src="Pictures/Scaled_age.png" width="250">
-<img src="Pictures/Scaled_income.png" width="250">
-<img src="Pictures/Scaled_score.png" width="250">
+![](Pictures/Scaled_age.png)
+![](Pictures/Scaled_income.png)
+![](Pictures/Scaled_score.png)
 ## Clustering
 I've used a **KMeans** algorithm for segmenting the data.\
 In order to find the optimal number of clusters I used a loop and did a segmentation for each value of the number of clusters. Based on the results of comparing the results it seems that the most optimal number of groups is 5. Reults of segmentations are presented below. \
-<img src="Pictures/Different_n.png" width="1000">\
+![](Pictures/Different_n.png)\
 Also i've checked the inertia and silhouette score. And i can conclude that **5** is the most optimal number of clusters in my case.\
-<img src="Pictures/inertia.png" width="750">
-<img src="Pictures/Silhouette.png" width="750">
+![](Pictures/inertia.png)
+![](Pictures/Silhouette.png)
+
