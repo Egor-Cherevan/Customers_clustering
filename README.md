@@ -14,7 +14,11 @@ I was also interested in looking at the distribution of three quantities at once
 ![](Pictures/Values_distribution.png)
 ## Scaling
 I've scaled my data with help of **MinMaxScaler** to place all values in the range [0,1].\
-<img src="Pictures/minmaxscaler.png" width="400">
+<img src="Pictures/minmaxscaler.png" width="400">\
+You can see the results of scaling below.\
+<img src="Pictures/Scaled_age.png" width="200">\
+<img src="PicturesScaled_income.png" width="200">\
+<img src="Pictures/Scaled_score.png" width="200">\
 ## Clustering
 I've used a **KMeans** algorithm for segmenting the data.\
 Results of segmenting are presented below.
