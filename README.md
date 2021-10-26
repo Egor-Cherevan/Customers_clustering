@@ -22,4 +22,7 @@ You can see the results of scaling below.\
 ## Clustering
 I've used a **KMeans** algorithm for segmenting the data.\
 In order to find the optimal number of clusters I used a loop and did a segmentation for each value of the number of clusters. Based on the results of comparing the results it seems that the most optimal number of groups is 5. Reults of segmentations are presented below. \
-<img src="Pictures/Different_n.png" width="1000">
+<img src="Pictures/Different_n.png" width="1000">\
+Also i've checked the inertia and silhouette score. And i can conclude that **5** is the most optimal number of clusters in my case.\
+<img src="Pictures/inertia.png" width="750">
+<img src="Pictures/Silhouette.png" width="750">
