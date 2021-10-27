@@ -26,4 +26,5 @@ In order to find the optimal number of clusters I used a loop and did a segmenta
 Also i've checked the inertia and silhouette score. And i can conclude that **5** is the most optimal number of clusters in my case.\
 ![](Pictures/inertia.png)
 ![](Pictures/Silhouette.png)
+![](Pictures/n_5.png)
 
