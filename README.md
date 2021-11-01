@@ -1,4 +1,5 @@
 # Customers clustering
+## Description
 In this project i've tried to show the use of unsupervised learning in businesses for potential improving KPI's.\
 You can see my [notebook](https://github.com/Egor-Cherevan/Customers_clustering/blob/main/Notebook/Customers_segmentation%20.ipynb) if it's more convenient than [code](https://github.com/Egor-Cherevan/Customers_clustering/blob/main/code.py) for you.
 ## Data
