@@ -9,3 +9,16 @@ I've used the [Mall Customers dataset](https://github.com/Egor-Cherevan/Customer
 3.  Age - Customers age(years)
 4.  Annual Income(k$) - Customers annual income in k$
 5.  Spending Score (1-100) - Customers score assigned by the mall based on the customer behavior
+## Structure of project
+1.  Importing the libraries
+2.  Loading the data
+3.  Primary analysis
+4.  Scaling
+5.  Primary clustering
+6.  Simple analysis of clastering
+7.  Models optimization
+8.  Viewing the data without scaling divided into groups
+9.  Descriptive statistics for clusters
+10.  Definition the most useful group of customers for mall
+## Conclusions
+Using clustering can enable companies to build personal relationships with customers and work better with them. An individual approach to each client can increase customer loyalty and ensure increased profits.
